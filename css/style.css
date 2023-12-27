@@ -100,7 +100,7 @@ color: #4D5AE5;
     display: flex;
     gap: 40px;
     margin-right: 332px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .navigation-item {
@@ -111,7 +111,7 @@ color: #4D5AE5;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .navigation-item:hover,
@@ -178,6 +178,11 @@ color: #4D5AE5;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 188 472; */
 }
 
 .main-container {
