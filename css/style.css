@@ -320,10 +320,6 @@ color: #4D5AE5;
     padding-bottom: 120px;
 }
 
- .portfolio-container {
-    width: 1158px;
-}
-
 .portfolio-title {
     color: #2E2F42;
         text-align: center;
@@ -345,19 +341,10 @@ color: #4D5AE5;
     padding-bottom: 32px;
     align-items: flex-start;
     flex-shrink: 0;
-    column-gap: 24px;
-    row-gap: 48px;
+  gap: 48px 24px;
 }
 
 .portfolio-item {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
-    display: flex;
-    width: 360px;
-    height: 420px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
     flex-basis: calc((100% - 64px) / 3);
 }
 
@@ -370,29 +357,40 @@ color: #4D5AE5;
 .portfolio-img {
     background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
     width: 360px;
-        height: 300px;
-        flex-shrink: 0;
+    height: 300px;
+    flex-shrink: 0;
 }
 
 .portfolio-name {
     color: #2E2F42;
-    padding-left: 16px;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    /* padding-left: 16px; */
+    /* margin-top: 32px; */
+    margin-bottom: 7px;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-target {
-    color: #434455;
+    /* color: #434455;
     padding-left: 16px;
         font-family: Roboto;
         font-size: 16px;
         line-height: 24px;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.32px; */
+        font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: flex;
+  flex-wrap: wrap;
 } 
 
 /* Footer */
