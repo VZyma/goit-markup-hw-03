@@ -78,6 +78,7 @@ img {
 .header-navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .logo {
@@ -298,6 +299,7 @@ color: #4D5AE5;
 .our-team-name{
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 500;
 
     /* font-size: 20px;
     font-weight: 500;
@@ -306,8 +308,6 @@ color: #4D5AE5;
 }
 
 .our-team-job{
-    font-weight: 500;
-    font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
@@ -323,7 +323,6 @@ color: #4D5AE5;
 .portfolio-title {
     color: #2E2F42;
         text-align: center;
-        margin-top: 120px;
         margin-bottom: 72px;
         font-family: Roboto;
         font-size: 36px;
